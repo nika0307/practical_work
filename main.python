@@ -1,0 +1,14 @@
+n = 10
+for i in range(n):
+    for j in range(0, n-i+1):
+        print(end=' ')
+    C = 1
+    for j in range(1,i+1):
+        print('', C, sep='', end=' ')
+        C = C * (i - j) // j
+
+    g = str(c) if c % 2 == 0:
+    c = g.replace(g,"0")
+else:
+    c = g.replace(g,"1")
+    print()
